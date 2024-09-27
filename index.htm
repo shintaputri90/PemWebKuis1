@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Latihan 4</title>
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .large-text {
+            font-size: 1.5rem; /* Ukuran huruf lebih besar */
+        }
+        .small-table {
+            transform: scale(0.5); /* Mengecilkan ukuran tabel */
+            transition: transform 0.5s ease; /* Transisi yang halus */
+        }
+        .star-effect {
+            color: rgb(44, 41, 26);
+            font-size: 1.2rem;
+        }
+    </style>
+</head>
+<body>
+    <div class="container mt-5">
+        <h1 class="mb-4" id="dataMahasiswa">Data Mahasiswa</h1>
+        <table class="table table-bordered" id="myTable">
+            <thead class="thead-dark">
+                <tr>
+                    <th>No</th>
+                    <th id="namaColumn">Nama</th>
+                    <th>NIM</th>
+                    <th>Kelas</th>
+                    <th>Jenis Kelamin</th>
+                    <th>Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Konten tabel akan ditambahkan di sini menggunakan JavaScript -->
+            </tbody>
+        </table>
+    </div>
+
+    <!-- Memasukkan file JavaScript eksternal -->
+    <script src="tabel.js"></script>
+
+    <!-- Library eksternal -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>
